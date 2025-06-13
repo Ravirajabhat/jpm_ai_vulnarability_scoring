@@ -71,11 +71,14 @@ This project aims to predict the **CVSS severity** levels (`Low`, `Medium`, `Hig
 data/
 ├── <version>/garak/
 │   ├── garak.report.jsonl
+│   ├── garak_report_flat.csv
 │   └── garak_with_severity_historic.csv
 ├── <version>/nvd_data/
-│   └── all_nvd_cves.pkl
+│   ├── all_nvd_cves.pkl
+│   └── nvdcve-1.1-<YEAR>.json.gz
 models/
 └── <version>/best_cvss_classifier_historic.pkl
+│   └── cvss_label_encoder_historic.pkl
 ```
 
 ---
