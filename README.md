@@ -1,4 +1,4 @@
-# 📘 JPM AI CVE Severity Prediction: Model Comparison & Final Recommendation
+# 📘 JPM AI Vulnarability Scoring: Model Comparison & Final Recommendation
 
 ## 📊 Objective
 
